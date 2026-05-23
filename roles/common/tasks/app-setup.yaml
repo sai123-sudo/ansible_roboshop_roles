@@ -19,6 +19,6 @@
   # remote_src: yes means files already exist in catalogue server , sgssdfg
   - name: "extract {{ component }} code"
     ansible.builtin.unarchive:
-      src: "/tmp/{{ component }}.zip"
-      dest: /app
-      remote_src: yes
+     src: "/tmp/{{ component }}.zip"
+     dest: /app
+     remote_src: yes
