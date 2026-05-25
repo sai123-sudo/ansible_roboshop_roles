@@ -36,8 +36,8 @@
       tasks_from: systemd.yaml
 
   - name: Deployment
-    tags:
-    - deployment
+    # tags:
+    # - deployment
     include_role:
       name: common
       tasks_from: deployment 
